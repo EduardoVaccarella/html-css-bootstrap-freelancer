@@ -1,0 +1,31 @@
+/* xs devices */
+
+@media all and (min-width: 481px) and (max-width: 767px) {
+    [class*="col-"] {
+        width: 100%;
+    }
+}
+
+/* md devices */
+
+@media all and (min-width: 768px) and (max-width: 991px) {
+    .col- {
+        width: 100%;
+    }
+}
+
+/* lg devices */
+
+@media all and (min-width: 992px) {
+    .col- {
+        width: 100%;
+    }
+}
+
+/* xxs */
+
+@media all and (max-width: 480px) {
+    [class*="col-"] {
+        width: 100%;
+    }
+}
