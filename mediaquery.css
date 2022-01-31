@@ -1,0 +1,42 @@
+ /* xxs devices */
+
+@media all and (max-width: 575px) {
+    [class*="col-"] {
+        width: 100%;
+    }
+
+    img {
+        max-width: 50%;
+    }
+
+}
+
+/* xs devices */
+
+@media all and (min-width: 576px) and (max-width: 767px) {
+    
+}
+
+/* md devices */
+
+@media all and (min-width: 768px) and (max-width: 991px) {
+    .col- {
+        
+    }
+}
+
+/* lg devices */
+
+@media all and (min-width: 992px) {
+    .col- {
+        
+    }
+}
+
+/* xxs */
+
+@media all and (max-width: 480px) {
+    [class*="col-"] {
+        flex-basis: calc((100% / 12) * 12);
+    }
+}
