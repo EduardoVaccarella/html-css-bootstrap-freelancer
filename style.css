@@ -3,3 +3,35 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    color: white;
+    font-family: Arial;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* debug */
+
+.ms_color {
+    color: white;
+    font-family: Arial;
+}
+
+.ms_min-height {
+    min-height: 80px;
+}
+
+.ms_bg-primary {
+    background-color: #3A546D;
+}
+
+.ms_bg-primary2 {
+    background-color: #1ABC9C;
+}
+
+.ms_min-height2 {
+    min-height: 360px;
+}
