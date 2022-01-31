@@ -14,7 +14,9 @@
 /* xs devices */
 
 @media all and (min-width: 576px) and (max-width: 767px) {
-    
+    img {
+        max-width: 30%;
+    }
 }
 
 /* md devices */

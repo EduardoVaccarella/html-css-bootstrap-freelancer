@@ -12,6 +12,10 @@ img {
 
 /* debug */
 
+#ms_row1_flex-end {
+    justify-content: end;
+}
+
 .ms_color {
     color: white;
     font-family: Arial;
